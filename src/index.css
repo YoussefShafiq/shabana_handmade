@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-bg: #F4D35E;
+  --brand-bg-2: #E9C46A;
+  --brand-gold: #D4AF37;
+  --brand-brown: #8B5E34;
+  --brand-brown-2: #6F4E37;
+  --brand-text: #3A2A20;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--brand-bg);
+  color: var(--brand-text);
+  font-family: 'Montserrat', ui-sans-serif, system-ui, sans-serif;
+}
+
+#root {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  scroll-behavior: smooth;
+}
