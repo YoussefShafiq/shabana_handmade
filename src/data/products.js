@@ -1,4 +1,4 @@
-export const WHATSAPP_PHONE_E164 = '01284222917'
+export const WHATSAPP_PHONE_E164 = '+201284222917'
 
 export const products = [
   {
