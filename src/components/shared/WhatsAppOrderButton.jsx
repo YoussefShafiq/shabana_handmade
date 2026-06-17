@@ -4,7 +4,7 @@ export default function WhatsAppOrderButton({ productName, extraMessage = '' }) 
   const message = `Hi Shabana! I want to order: ${productName}.${extraMessage ? ` ${extraMessage}` : ''} Please share payment and delivery details.`
 
   const href =
-    WHATSAPP_PHONE_E164 && WHATSAPP_PHONE_E164 !== 'YOUR_E164_PHONE_NUMBER_HERE'
+    WHATSAPP_PHONE_E164
       ? `https://wa.me/${WHATSAPP_PHONE_E164}?text=${encodeURIComponent(message)}`
       : '#'
 
